@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.lang {
+  color: #1e293b;
+  font-size: 13px;
+  font-weight: 400;
+  background-color: #dddde0;
+  font-weight: 500;
+  border-radius: 5px;
+  padding: 6px;
+}
+
+.lang-container {
+  margin-top: 15px;
+}
+
+.each-lang {
+  margin: 0px 10px 13px 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .lang-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
